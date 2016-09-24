@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "dependencies": {
     "base64url": "0.0.6",
-    "bms-mca-oauth-sdk": "^3.0.2",
+    "bms-mca-oauth-sdk": "^3.0.3",
     "bms-monitoring-sdk-node": "1.x",
     "jws": "~0.2.2",
     "log4js": "^0.6.27",
