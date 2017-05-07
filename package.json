@@ -20,6 +20,8 @@
     "rsa-pem-from-mod-exp": "~0.8.4",
     "underscore": "~1.6.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    
+    },
   "readmeFilename": "README.md"
 }
