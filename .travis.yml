@@ -12,12 +12,11 @@ branches:
   - /\d+\.\d+\.\d+/
 
 install:
-  - npm install -g codecov
+  - npm install
 
 script:
   - npm install
-  - npm run coverage
-  - cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js # publish coverage info to coveralls
+
 
 deploy:
   provider: npm
