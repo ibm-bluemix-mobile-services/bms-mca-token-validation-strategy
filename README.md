@@ -14,7 +14,7 @@ The `options` parameter is optional.  If specified, it can contain:
 
 * `cacheSize` The cache size, the default value is 10000;
 
-The MCABackendStrategy is used for a backend application that is deployed on IBM Bluemix. It will validate the `authorization` header from an incoming request against the MCA server url specified in the VCAP_SERVICES variable, where the service name starts with `AdvancedMobileAccess`, for the `appId` extracted from VCAP_APPLICATION.
+The MCABackendStrategy is used for a backend application that is deployed on IBM Bluemix. It will validate the `authorization` header from an incoming request against the MCA server url specified in the VCAP_SERVICES variable, where the service name starts with `AppID`, for the `appId` extracted from VCAP_APPLICATION.
 
 ### MCAResourceStrategy
 ```
